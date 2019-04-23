@@ -1,0 +1,47 @@
+*,*::after,*::before,html{padding:0;margin:0;vertical-align:baseline;text-decoration:none;font-family:ti;}body{overflow-x:hidden;background:#000;}
+@font-face{src:url("../resource/font/text.ttf");font-family:"texto";}@font-face{src:url("../resource/font/titles.ttf");font-family:"ti";}.panvid{
+position:absolute;z-index:2;opacity:0.83;height:100vh;
+    background-image: linear-gradient(to top,black 50%,#6d0c0c96);
+}::-webkit-scrollbar{display:none;}
+.ropa{width:100vw;height:100vh;background:#000;display: flex;}header{width:100vw;display:flex;}.eslo{text-transform:uppercase;color:#323030;font-size:6em;display:block;
+cursor:default;text-align: center;text-shadow: -7px -2px 0px #e2dede;font-weight: bold;padding: 39vh 1.5vw;}.ti{flex-grow:1;cursor:default;}.ti>img{
+position:absolute;width: 23vw;display: block;padding: 2vh 1vw;}.loc:hover{color:#fff;background:#ff0000;}video{margin:-10vh 0 0 0;width:100vw;}.loc{
+font-weight:bold;color:#fff;text-align:center;text-transform:uppercase;border:2px solid #fff;font-size:1.6em;padding:0.7em;width:17.4vw;position:absolute;
+margin:2.5vh 0 0 78vw;transition:all .2s ease-in-out;border-radius:8px;}.naveg{margin-right:28vw;display:flex;}.j{font-size:30px;padding:5vh 1vw;flex-grow:1;
+color:#fff;font-weight:bold;transition:all .2s;transition-timing-function:cubic-bezier(.17,.67,.52,1.49);text-transform:uppercase;}.j:hover{transform:scale(1.1);}
+
+
+
+.prom{
+  width:100vw;height:100vh;background:#000;
+}
+
+
+.gen{
+  width: 50vw;
+    height: 100vh;
+    background-position-y: -3.5em;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.genm{
+  background-image:url("../resource/img/ediy.png");}
+.genf{
+  background-image:url("../resource/img/ediy1.png");
+}
+
+.genf::after,.genm::after{
+  content:'';
+  transition:all .2s linear;
+  position: absolute;
+  background-image: linear-gradient(to top, #000 64%, #000000);
+  width: 50vw;
+  height: 100vh;
+  opacity: 0.8;
+  z-index: 10;}
+
+.genf:hover::after, .genm:hover::after{
+  background-image: linear-gradient(to top, #000 64%,  transparent);
+  opacity: 0.4;
+
+}
